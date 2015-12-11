@@ -1,6 +1,6 @@
 OBJECTS = main.o particle.o v3.o
 SRC=main.cpp particle.cpp v3.cpp
-INC=.
+INC=-I.
 
 NVCC=nvcc
 NVCCFLAGS=-arch=sm_20
